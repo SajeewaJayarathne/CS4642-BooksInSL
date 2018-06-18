@@ -12,13 +12,7 @@
 <p>
   <b>Corpus</b>
   <br>
-  <span>The corpus used is about the information of English, Sinhala, and Tamil books that are available for selling in 
-  Sri Lanka. Most important information of books that a buyer would seek, such as The book title, the author, and the price 
-  is displayed in every book with the picture of the book cover. Some contain the summary, and other information like 
-  publisher, published date, binding method, and number of pages. Moreover, the ISBNs are also displayed, so that not only 
-  a buyer, but also publishers, authors, and book sellers are able to gain specific knowledge from that. Further, 
-  English books are categorized as general books, discounted books, rare books, and second-hand books, while the book of 
-  other two languages have only the general category.</span>
+  <span>The corpus (books_list_with_lang_type.csv in the git repo) contains several information of books that are available to be sold in Sri Lanka, which is taken from the <a href='www.books.lk'>www.books.lk</a> website. The set of information consists of book title, author, summary, publisher, published date, price, ISBNs (International Standard Book Number), binding method, number of pages, book type, and the language written. The corpus is created as a CSV file. Books written in English, Sinhala, and Tamil are contained in this corpus.</span>
 </p>
 <br>
 <p>
