@@ -104,7 +104,7 @@ class BooksSpider(scrapy.Spider):
                 y.append(x[i].split("<"))
 
             for i in y:
-                summary_str = summary_str + i[0].replace(';', ':').replace('\r', '').replace('\n', '').replace('\t', '').replace(u'\x96', '-').encode('utf-8')
+                summary_str = summary_str + i[0].encode('utf-8').replace(';', ':').replace('\r', '').replace('\n', '').replace('\t', '').replace(u'\x96', '-')
 
 
         yield{
