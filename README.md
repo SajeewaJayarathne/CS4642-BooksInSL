@@ -1,8 +1,6 @@
 # CS4642-BooksInSL
 <b>Data Mining Project - Semester 7</b>
 <br>
-<br>
-
 <p>
   <b>Project Description</b>
   <br>
@@ -42,3 +40,6 @@
   <br>
   <span>The ISBN of a book is the International Standard Book Number, which is a 13 digit number used to uniquely identify books and other book-like products (i.e. Magazines) published internationally. The ISBN is a number that establishes and identifies one title or edition of a title from one specific publisher and unique to that edition. For additional information on ISBN, refer <a href='https://www.isbn.org/about_ISBN_standard'> https://www.isbn.org/about_ISBN_standard</a>.</span>
 </p>
+<br>
+<br>
+<p>This repo consists of the Python source codes written to scrape data from <a href='www.books.lk'>www.books.lk</a> website, using Scapy web crawling framework, a set of different sized corpora crawled from the website, and the Solr configuration files used to index the <b>all_products.csv</b> corpus. I have used Solr-7.3.1 version for indexing.</p>
